@@ -21,7 +21,7 @@
     display: inline-block;
     position: absolute;
     right: 0px;
-    top: 15px;
+    top: 0;
   }
   .accordion.storybook-button--accordion:before {
     right: 32px;
@@ -49,15 +49,15 @@
     padding: 12px 24px;
   }
   
-  .arrow:after {
+  .storybook-button--accordion.arrow:after {
     content: '';
     border: solid #ffffff;
     border-width: 0 2px 2px 0;
     display: inline-block;
     padding: 2px; 
     position: absolute;
-    top: 23px;
-    right: 8px;
+    top: 8px;
+    right: 9px;
     
   }
   .accordion.arrow:after {

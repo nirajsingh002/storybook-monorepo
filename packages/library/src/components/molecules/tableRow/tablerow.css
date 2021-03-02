@@ -1,15 +1,19 @@
 
-
-th, td {
-    width: 100%;
+table{
+    width:100%;
+    table-layout: fixed;
+    overflow-wrap: break-word;
+    border-collapse: collapse;
+    font-family: Helvetica, Arial, sans-serif;
 }
 th {
-    text-transform: capitalize;
+    text-align: left;
+}
+td {
+    font-size: 14px;
 }
 
-td {
-    color: #131212;
-}
-td:last-child {
-    text-align: right;
-}
+td, th {
+    border-bottom: 1px solid #ddd;
+    padding: 10px;
+  }
