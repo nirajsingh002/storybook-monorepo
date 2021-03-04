@@ -11,11 +11,11 @@ module.exports = {
   "refs": {
     "foundation": { 
       "title": "Foundation",
-      "url": 'http://localhost:6006'
+      "url": 'http://yrcw-demo-foundation.s3-website.us-east-2.amazonaws.com/'
     },
     "marketing": { 
-      "title": "Marketing",
-      "url": 'http://localhost:6007' 
+      "title": "Insights & Marketing",
+      "url": 'http://yrcw-demo-marketing.s3-website.us-east-2.amazonaws.com/' 
     },
   }
 }

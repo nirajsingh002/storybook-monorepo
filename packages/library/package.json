@@ -17,7 +17,7 @@
     "storybook": "start-storybook -p 6006 -s public,./src/assets",
     "build-lib": "babel src --out-dir lib --source-maps inline --copy-files",
     "test": "echo \"Error: run tests from root\" && exit 1",
-    "build-storybook": "build-storybook s public",
+    "build-storybook": "build-storybook  -s ./src/assets public -o ./storybook-static",
     "chromatic": "npx chromatic --project-token 79c1ed3f65e5"
   },
   "dependencies": {
